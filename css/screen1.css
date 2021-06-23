@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     text-decoration: none;
-    background-image: url("images/jake-blucker-tMzCrBkM99Y-unsplash.jpg");
+    background-image: url("/images/jake-blucker-tMzCrBkM99Y-unsplash.jpg");
     background-size: cover;
 }
 
@@ -16,7 +16,7 @@ body {
     height: 500px;
     padding-top: 1.5rem;
     padding-bottom: 2rem;
-    background-image: url("images/jake-blucker-tMzCrBkM99Y-unsplash.jpg");
+    background-image: url("/images/jake-blucker-tMzCrBkM99Y-unsplash.jpg");
     background-size: cover;
 }
 
