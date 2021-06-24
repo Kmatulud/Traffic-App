@@ -2,6 +2,24 @@
 <html lang="en">
 
 <head>
+    <!--template-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script type="text/x-template" class="userTemplate">
+        <h1>Stats for {{name}}</h1>
+        <div class="inputs">
+            <div class="data">
+                <nav class="top">
+                    <p class="fp">The route you chose is {{route}}</p>
+                    <p class="fp">The duration is {{duration}} minutes</p>
+                </nav>
+            </div>
+        </div>
+        <div class="btn">
+            <a href="../index.html"><button class="button">Back</button></a>
+            <a href="../html/screen3.html"><button class="button">Full stats</button></a>
+        </div>
+    </script>
+    <!----template--->
     <link rel="stylesheet" href="../css/screen2.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <meta charset="UTF-8">
@@ -13,19 +31,8 @@
 <body>
 
     <div class="box"> <br> <br>
-        <h1>Stats for <span class="name"></span></h1>
-        <div class="inputs">
-            <div class="data">
-                <nav class="top">
-                    <p class="fp">The route you chose is <span class="route"></span></p>
-                    <p class="fp">The duration is <span class="duration"></span> minutes</p>
-                </nav>
-            </div>
-        </div>
-        <div class="btn">
-            <a href="../index.html"><button class="button">Back</button></a>
-            <a href="../html/screen3.html"><button class="button">Full stats</button></a>
-        </div>
+        <div class="add"></div>
+
     </div>
     <script src="/js/screen2.js"></script>
 </body>

@@ -7,6 +7,7 @@ var clearBtn = document.querySelector(".clear");
 //elemenyts
 
 buttonElem.addEventListener("click", function(e) {
+
     var newArray = [];
     ////global variables
     var day = new Date(dateElem.value).getDay();
@@ -69,5 +70,5 @@ buttonElem.addEventListener("click", function(e) {
 });
 clearBtn.addEventListener("click", function() {
     localStorage.clear();
-    location.reload();
+
 });
