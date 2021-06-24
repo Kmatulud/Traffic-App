@@ -1,0 +1,49 @@
+body {
+    width: 90%;
+    height: auto;
+    background-image: url("../images/jake-blucker-tMzCrBkM99Y-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-image: url("../images/jake-blucker-tMzCrBkM99Y-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    margin-top: 5%;
+    box-shadow: 5px 4px 5px 5px gray;
+}
+
+h1 {
+    margin: auto;
+    width: 70%;
+    margin-top: 10%;
+    font-family: sans-serif;
+    padding: 15px;
+    box-shadow: 5px 4px 5px 5px gray;
+}
+
+p {
+    font-size: 25px;
+}
+
+button {
+    width: 40%;
+    margin-top: 10%;
+    font-family: sans-serif;
+    padding: 15px;
+    box-shadow: 5px 4px 5px 5px gray;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    margin-left: 5%;
+    transition: 1s;
+}
+
+button:hover {
+    color: rgb(182, 189, 120);
+}

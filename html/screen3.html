@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <canvas id="myChart" width="100%" height="50px"></canvas>
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["kgotso", "Mthobisi", "Thato"],
+                datasets: [{
+                    label: 'perfomence',
+                    data: [9, 6, 9],
+                    backgroundColor: [
+                        "cyan"
+                    ],
+                    borderColor: [
+                        "grey"
+                    ],
+                    borderWidth: 1
+                }, {
+                    label: 'Members Data',
+                    data: [5, 5, 5],
+                    backgroundColor: [
+                        "orange"
+                    ],
+                    borderColor: [
+                        "grey"
+                    ],
+                    borderWidth: 1
+                }],
+
+            },
+
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

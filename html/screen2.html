@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="../css/screen2.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Daily Travelling Stats</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <h1>Today's Travelling Statistics Are:</h1>
-        <div class="data">
-            <ul></ul>
+
+    <div class="box"> <br> <br>
+        <h1>Stats for <span class="name"></span></h1>
+        <div class="inputs">
+            <div class="data">
+                <nav class="top">
+                    <p class="fp">The route you chose is <span class="route"></span></p>
+                    <p class="fp">The duration is <span class="duration"></span> minutes</p>
+                </nav>
+            </div>
+        </div>
+        <div class="btn">
+            <a href="../index.html"><button class="button">Back</button></a>
+            <a href="../html/screen3.html"><button class="button">Full stats</button></a>
         </div>
     </div>
-    <script src="/js/index-dom-logic.js"></script>
     <script src="/js/screen2.js"></script>
 </body>
+
+
 </html>
