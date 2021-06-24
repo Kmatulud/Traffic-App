@@ -6,7 +6,7 @@ var buttonElem = document.querySelector(".button");
 var clearBtn = document.querySelector(".clear");
 
 var array = localStorage.getItem("arr") || [];
-
+var data;
 buttonElem.addEventListener("click", function (e) {
 	var newArray = [];
 
@@ -58,7 +58,8 @@ buttonElem.addEventListener("click", function (e) {
 	localStorage.getItem("arr");
 
 	usernameElem.value = "";
-
+    data = JSON.parse(localStorage.getItem("strObj"));
+    
 	// console.log(each, usernameElem.value, timeElem.value, dateElem.value);
 });
 clearBtn.addEventListener("click", function () {
