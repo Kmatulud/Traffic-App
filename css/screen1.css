@@ -13,7 +13,7 @@ body {
     box-shadow: 5px 4px 5px 5px rgb(102, 102, 26);
     border-radius: 1%;
     padding: 5px;
-    height: 500px;
+    height: 650px;
     padding-top: 1.5rem;
     padding-bottom: 2rem;
     background-image: url("../images/jake-blucker-tMzCrBkM99Y-unsplash.jpg");
@@ -32,12 +32,15 @@ h1 {
     align-items: center;
 }
 
-input {
+input, select{
     width: 50%;
-    height: 5vh;
+    height: 4vh;
     font-size: 1rem;
+    outline: none;
 }
-
+#time{
+    font-size: 1.6rem;
+}
 .btn {
     text-align: center;
     margin-top: 2.5rem;
@@ -49,7 +52,7 @@ input {
 
 .button,
 .clear {
-    padding: 2rem;
+    padding: 1.3rem;
     font-size: 1.2rem;
     margin-right: 2rem;
 }
