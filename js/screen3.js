@@ -6,21 +6,20 @@ data.forEach(val => {
     //   labels.push(val.Day)
     //   datab.push(val.Duration)
     ////
-    if (map.hasOwnProperty(val.Day)) {
+    if (map.hasOwnProperty(val.Route)) {
 
     } else {
-        if (undefined == val.Day) {
+        if (undefined == val.Route) {
             console.log("undefined")
         } else {
-            map[val.Day] = 0
+            map[val.Route] = 0;
         }
-
     }
 });
 data.forEach(val => {
     ////
     for (const key in map) {
-        if (key == val.Day) {
+        if (key == val.Route) {
             var duration = parseFloat(val.Duration)
             map[key] = map[key] + duration
         }
