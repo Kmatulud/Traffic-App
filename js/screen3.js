@@ -9,9 +9,14 @@ data.forEach(val => {
     if (map.hasOwnProperty(val.Day)) {
 
     } else {
-        map[val.Day] = 0
+        if (undefined == val.Day) {
+            console.log("undefined")
+        } else {
+            map[val.Day] = 0
+        }
+
     }
-})
+});
 data.forEach(val => {
     ////
     for (const key in map) {

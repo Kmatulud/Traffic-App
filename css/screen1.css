@@ -32,15 +32,18 @@ h1 {
     align-items: center;
 }
 
-input, select{
+input,
+select {
     width: 50%;
     height: 4vh;
     font-size: 1rem;
     outline: none;
 }
-#time{
+
+#time {
     font-size: 1.6rem;
 }
+
 .btn {
     text-align: center;
     margin-top: 2.5rem;

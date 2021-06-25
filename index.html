@@ -17,23 +17,26 @@
 <body>
     <div class="box">
         <h1>Traffic Review App</h1>
-        <div class="inputs">
-            <input type="text" name="user" id="user" placeholder="UserName">
-            <label for="options">Choose route: </label>
-            <select name="routes" id="options">
+        <form>
+            <div class="inputs">
+                <input type="text" name="user" id="user" placeholder="UserName">
+                <label for="options">Choose route: </label>
+                <select name="routes" id="options">
                 <option value="Joburg-pretoria">Joburg - pretoria</option>
                 <option value="Soweto - joburg">Soweto - joburg</option>
                 <option value="Daveyton - Centurion">Daveyton - Centurion</option>
             </select>
-            <label for="time">Trip Duration(Minutes)</label>
-            <input type="number" name="time" id="time">
-            <label for="day"> Date </label>
-            <input type="date" name="day" id="day">
-        </div>
+                <label for="time">Trip Duration(Minutes)</label>
+                <input type="number" name="time" id="time">
+                <label for="day"> Date </label>
+                <input type="date" name="day" id="day">
+            </div>
+        </form>
         <div class="btn ">
-            <a href="html/screen2.html"><button class="button">View</button></a>
+            <a href="html/screen2.html"><button class="button">Submit</button></a>
             <button class="clear">Reset</button>
         </div>
+
     </div>
     <!---script tags--->
     <script src="js/index-dom-logic.js"></script>

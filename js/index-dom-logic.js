@@ -64,11 +64,12 @@ buttonElem.addEventListener("click", function(e) {
         localStorage.setItem("strObj", strObj);
         var newArray = ([].length = 0);
     }
-
-    usernameElem.value = "";
-    // console.log(each, usernameElem.value, timeElem.value, dateElem.value);
+    var form = document.querySelector("form")
+    form.reset()
+        // console.log(each, usernameElem.value, timeElem.value, dateElem.value);
 });
 clearBtn.addEventListener("click", function() {
     localStorage.clear();
-
+    var form = document.querySelector("form")
+    form.reset()
 });
